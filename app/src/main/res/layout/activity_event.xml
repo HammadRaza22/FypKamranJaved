@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_event"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.mkawan.finalyearproject.Event"
+    tools:ignore="ExtraText"
+    android:weightSum="1">
+
+
+    <TextView
+        android:text="@string/event"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/evnet"
+        android:textSize="30sp"
+        android:textStyle="normal|bold"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:layout_weight="0.45" />
+
+    <TextView
+        android:text="@string/ename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ename_text"
+        android:textStyle="normal|bold"
+        android:textAlignment="center"
+        android:textSize="16sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/ename"
+        android:hint="@string/ename" />
+
+    <TextView
+        android:text="@string/e_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/date_text"
+        android:textStyle="normal|bold"
+        android:textSize="16sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:ems="10"
+        android:id="@+id/e_date"
+        tools:ignore="LabelFor"
+        android:hint="@string/e_date" />
+
+    <LinearLayout
+        android:layout_width="356dp"
+        android:layout_height="31dp"
+        android:orientation="horizontal"
+        tools:ignore="InefficientWeight"
+        android:id="@+id/linear_layuot">
+
+        <TextView
+            android:text="@string/e_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/stime_text"
+            android:layout_weight="0.01"
+            android:textStyle="normal|bold"
+            android:textSize="16sp" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.01"
+            android:id="@+id/etime_text"
+            android:textSize="16sp"
+            android:textStyle="normal|bold"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="161dp"
+            android:layout_height="wrap_content"
+            android:inputType="time"
+            android:ems="10"
+            android:id="@+id/editText23"
+            tools:ignore="LabelFor"
+            android:hint="@string/s_time" />
+
+        <TextView
+            android:text="To"
+            android:layout_width="34dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/awain"
+            tools:ignore="HardcodedText,InefficientWeight"
+            android:textStyle="normal|bold"
+            android:textSize="16sp" />
+
+        <EditText
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:inputType="time"
+            android:ems="10"
+            android:id="@+id/editText25"
+            tools:ignore="LabelFor"
+            android:hint="@string/e_time" />
+    </LinearLayout>
+
+    <TextView
+        android:text="@string/venue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/venue_text"
+        android:textStyle="normal|bold"
+        android:textSize="16sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:hint="@string/venue"
+        android:id="@+id/venue" />
+
+    <TextView
+        android:text="@string/city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/city_text"
+        android:textStyle="normal|bold"
+        android:textSize="16sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/city"
+        android:hint="@string/city" />
+
+    <TextView
+        android:text="@string/c_by"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cby_text"
+        android:textStyle="normal|bold"
+        android:textSize="16sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editText28"
+        android:textSize="18sp"
+        android:hint="@string/c_by" />
+
+    <Button
+        android:text="@string/cevent_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/buttons"
+        android:layout_marginTop="40dp"
+        android:id="@+id/create_btn"
+        android:layout_weight="0.22"
+        android:textAllCaps="false"
+        android:textStyle="normal|bold"
+        android:textSize="18sp"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

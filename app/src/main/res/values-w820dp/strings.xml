@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Final Year Project</string>
+    <string name="fb_btn">Continue with Facebook</string>
+    <string name="text1">-----OR-----</string>
+    <string name="reg_btn"> Register Here </string>
+    <string name="text2">-----Have account-----</string>
+    <string name="login_btn">Login </string>
+    <string name="main_text">Find Event in Your Area </string>
+    <string name="find_events_in_your_area">Find Events in Your Area</string>
+    <string name="email">Enter Email</string>
+    <string name="password">Password</string>
+    <string name="registration">Register</string>
+    <string name="title_activity_home">Home</string>
+    <string name="event">Event Form</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="ename">Event Name</string>
+    <string name="e_date">Event Date</string>
+    <string name="s_time">Start Time</string>
+    <string name="e_time">End Time</string>
+    <string name="venue">Venue</string>
+    <string name="city">City</string>
+    <string name="diseription">Discription</string>
+    <string name="c_by">Created By</string>
+    <string name="cevent_btn">Create Event</string>
+    <string name="action_settings">Settings</string>
+    <string name="e_manu">Event Manu</string>
+</resources>
